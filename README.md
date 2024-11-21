@@ -17,19 +17,19 @@ Compatible with nodejs only. Not browser ready.
 Install like so
 
 ```
-npm i deep-email-validator --save
+npm i swipe-email-validator --save
 ```
 
 or with yarn
 
 ```
-yarn add deep-email-validator
+yarn add swipe-email-validator
 ```
 
 Use like so
 
 ```typescript
-import { validate } from 'deep-email-validator'
+import { validate } from 'swipe-email-validator'
 const main = async () => {
   let res = await validate('asdf@gmail.com')
   // {
@@ -86,4 +86,4 @@ For a list of TLDs that are supported by default you can see [here](https://gith
 
 ##
 
-[Default options can be found here](https://github.com/mfbx9da4/deep-email-validator/blob/8bbd9597a7ce435f0a77889a45daccdd5d7c3488/src/options/options.ts#L1)
+[Default options can be found here](https://github.com/Royanosh/deep-email-validator/blob/8bbd9597a7ce435f0a77889a45daccdd5d7c3488/src/options/options.ts#L1)
