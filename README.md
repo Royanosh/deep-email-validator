@@ -86,4 +86,4 @@ For a list of TLDs that are supported by default you can see [here](https://gith
 
 ##
 
-[Default options can be found here](https://github.com/Royanosh/deep-email-validator/blob/8bbd9597a7ce435f0a77889a45daccdd5d7c3488/src/options/options.ts#L1)
+[Default options can be found here](https://github.com/Royanosh/swipe-email-validator/blob/master/src/options/options.ts#L1)
