@@ -1,5 +1,5 @@
 {
-  "name": "deep-email-validator",
+  "name": "swipe-email-validator",
   "version": "0.1.22",
   "files": [
     "dist/**/*"
@@ -7,12 +7,8 @@
   "description": "Validates emails based on regex, common typos, disposable email blacklists, DNS records and SMTP server response.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mfbx9da4/deep-email-validator"
-  },
-  "author": "David Alberto Adler",
-  "license": "MIT",
+  "author": "swipeone",
+  "license": "ISC",
   "keywords": [
     "email-validation",
     "email-typos",
