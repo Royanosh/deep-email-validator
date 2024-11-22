@@ -4,7 +4,7 @@ import dnscache from 'dnscache'
 const dnsCache = dnscache({
   enable: true,
   ttl: 300,  // 5 minutes
-  cachesize: 1000
+  cachesize: 5000
 })
 
 export const getMx = async (domain: string): Promise<dns.MxRecord[]> => {
