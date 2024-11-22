@@ -1,6 +1,6 @@
 {
   "name": "swipe-email-validator",
-  "version": "0.1.23",
+  "version": "0.1.24",
   "files": [
     "dist/**/*"
   ],
@@ -38,6 +38,7 @@
     "@types/disposable-email-domains": "^1.0.1",
     "axios": "^0.24.0",
     "disposable-email-domains": "^1.0.59",
+    "dnscache": "^1.0.2",
     "mailcheck": "^1.1.1"
   },
   "devDependencies": {

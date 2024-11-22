@@ -1,8 +1,16 @@
 import dns from 'dns'
+import dnscache from 'dnscache'
+// Initialize DNS cache
+const dnsCache = dnscache({
+  enable: true,
+  ttl: 300,  // 5 minutes
+  cachesize: 1000
+})
 
 export const getMx = async (domain: string): Promise<dns.MxRecord[]> => {
   return new Promise(r =>
-    dns.resolveMx(domain, (err, addresses) => {
+    // Use cached DNS resolver instead of direct dns call
+    dnsCache.resolveMx(domain, (err, addresses) => {
       if (err || !addresses) return r([] as dns.MxRecord[])
       r(addresses)
     })
